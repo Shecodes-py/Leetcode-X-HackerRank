@@ -11,13 +11,13 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        ans = []
+        ans = [] 
         
-        for i in range(len(nums)):
-            num = nums[i]
-            ans.append(num)
+        for i in range(len(nums)): # loop through the given array 
+            num = nums[i]  # get the number at the index
+            ans.append(num) # add it to the list
 
-        ans = ans + ans
+        ans = ans + ans # duplicate the list
         return ans
     
         
